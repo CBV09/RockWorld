@@ -46,3 +46,19 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+.text-center{
+      text-align: center;
+      justify-content:center;
+}
+
+    .text-center h1 {
+        color: red;
+        font-size: 50px;
+    }
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

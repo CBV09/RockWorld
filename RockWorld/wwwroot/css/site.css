@@ -18,7 +18,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: black;
+    color: whitesmoke;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -28,4 +30,39 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.text-center{
+        text-align: center;
+        justify-content:center;
+        width:800px;
+}
+
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-family: fantasy;
+    color: red;
+    font-weight: bold;
+}
+
+#myBtn {
+    background-color: red;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;  
+}
+.navbar {
+    background: #0a0704;
+    background: linear-gradient(90deg,rgba(10, 7, 4, 1) 0%, rgba(237, 9, 9, 1) 0%, rgba(252, 176, 69, 1) 100%);
+    font-size: 2.2rem;
+    font-weight: bold;
 }
